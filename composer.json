@@ -16,10 +16,8 @@
         "drupal/address": "^1.9",
         "drupal/core-composer-scaffold": "^8.8.1",
         "drupal/core-recommended": "^8.8",
-        "drupal/devel": "^4.1",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "^8.4.5",
-        "kint-php/kint": "^3.3",
         "pantheon-systems/drupal-integrations": "^8",
         "pantheon-systems/quicksilver-pushback": "^2"
     },
