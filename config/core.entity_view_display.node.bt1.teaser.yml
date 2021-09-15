@@ -1,0 +1,36 @@
+uuid: 9351e6a9-13a9-4b95-8d55-85cf59e84c98
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bt1.body
+    - field.field.node.bt1.field_bt1_image
+    - field.field.node.bt1.field_taxonomy
+    - field.field.node.bt1.field_timestamp
+    - node.type.bt1
+  module:
+    - text
+    - user
+id: node.bt1.teaser
+targetEntityType: node
+bundle: bt1
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_bt1_image: true
+  field_taxonomy: true
+  field_timestamp: true
