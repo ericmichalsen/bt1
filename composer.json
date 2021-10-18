@@ -22,16 +22,7 @@
         "pantheon-systems/drupal-integrations": "^8",
         "pantheon-systems/quicksilver-pushback": "^2"
     },
-   
-    "require": {
-        "composer/installers": "^1.0.20"
-        },
-        "extra": {
-          "installer-paths": {
-            "web/private/scripts/quicksilver": ["type:quicksilver-script"]
-          }
-        },
-    "require-dev": {
+       "require-dev": {
         "behat/behat": "^3.1",
         "behat/mink": "^1.7",
         "behat/mink-extension": "^2.2",
